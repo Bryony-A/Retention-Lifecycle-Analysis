@@ -104,7 +104,7 @@ These recommendations are directional, based on relative revenue-per-customer an
 
 ---
 
-# Recency-Churn Relationship
+## Recency-Churn Relationship
 
 ![Pivot Table Screenshot]()
 
@@ -114,7 +114,7 @@ A pivot table cross-tabulating `Last_Purchase_Date` (recency) against `churned` 
 
 The correlation between the two variables is 0.84. This pattern indicates that `churned` was likely operationalised as a recency-based proxy (no purchase within ~180 days) rather than derived from an independent behavioural or transactional signal. As a result, any segment-level analysis of churn is expected to closely mirror recency, since the two are effectively measuring the same underlying construct.
 
-# RFM(+E) Methodology
+## RFM(+E) Methodology
 
 | Dimension | Field | Why |
 | --- | --- | --- |
