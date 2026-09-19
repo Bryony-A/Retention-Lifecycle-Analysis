@@ -30,7 +30,7 @@ Nordlane's Growth Marketing team runs a standing retention budget aimed at reduc
 ---
 
 ## Preview
-![Dashboard Screenshot]()
+![Dashboard Screenshot](https://github.com/Bryony-A/Retention-Lifecycle-Analysis/blob/main/Screenshots/Power%20BI%20Dashboard.png)
 
 # Key Findings
 
