@@ -29,31 +29,29 @@ Nordlane's Growth Marketing team runs a standing retention budget aimed at reduc
 
 ---
 
-## Preview
+## Dashboard Preview
 ![Dashboard Screenshot](https://github.com/Bryony-A/Retention-Lifecycle-Analysis/blob/main/Screenshots/Power%20BI%20Dashboard.png)
 
 # Key Findings
 
-**1. Cannot Lose Them offers the best revenue-per-customer-targeted ratio.**
+`1. Cannot Lose Them offers the best revenue-per-customer-targeted ratio.`
 At £1.93K average proxy revenue per customer, *Cannot Lose Them(CLT)* customers are worth more than 2x as much individually as the *At Risk(AT)* segment (£0.84K).
 
 Despite AT holding more aggregate revenue with £1.5M compared to CLT with £0.7M simply by virtue of size, AT being 29% larger. For a budget that has to be spent per-customer (calls, personalised offers, account management), *Cannot Lose Them* is the more efficient allocation; for a budget spent at scale (automated email/CRM), *At Risk* reaches more revenue per pound spent on outreach.
 
-**2. Cart abandonment and site engagement move together with churn, and neither is recency-derived.**
+`2. Cart abandonment and site engagement move together with churn, and neither is recency-derived.`
 Churned customers show a 63.3% average cart abandonment rate against 48.5% for retained customers, and 12.49 average monthly site visits against 15.96 for retained customers. Because these fields are independent of the recency component that defines churn in this dataset, this is a genuine signal. One that the CRM/Lifecycle Marketing Manager can act on directly as a trigger for win-back automation, ahead of a customer formally lapsing into an At Risk Segment or Lost.
 
-**3. Risk is concentrated in mid-tenure customers, not the newest or longest-tenured.**
-When normalized as a share of each tenure band's full customer count. Gold 5+ is the safest cohort (55.4% Safe, 29.0% in the At Risk Segments bucket, 15.6% Lost, n=5,786). Silver 2-4 has the highest At Risk Segments share (50.5%, n=2,239), and Bronze 0-1 has the highest Lost share (28.1%, n=1,975). The pattern is a hump rather than a straight line. 
-
-Customers who've moved past onboarding but haven't yet consolidated into loyalty appear to be the point where the relationship is most likely to erode. The dataset can show that this pattern exists but not why.
+`3. Risk is concentrated in mid-tenure customers, not the newest or longest-tenured.`
+When normalized as a share of each tenure band's full customer count. **Gold Loyalty Tier (5+ years)** is the safest cohort (55.4% Safe, 29.0% in the At Risk Segments bucket, 15.6% Lost, n=5,786). **Silver Tier (2-4 years)** has the highest At Risk Segments share (50.5%, n=2,239), and **Bronze Tier (0-1 years)** has the highest Lost share (28.1%, n=1,975). The pattern is a hump rather than a straight line. <br/> Customers who've moved past onboarding but haven't yet consolidated into loyalty appear to be the point where the relationship is most likely to erode. The dataset can show that this pattern exists but not why.
 
 > **At-risk Segments:** Defined as *Needs Attention*, *At Risk*, *Cannot Lose Them,* and *Hibernating.* (Showing declining engagement where retention intervention is still plausible. *Recent, Lw Value* is excluded as these customers haven't yet established a behavioral pattern; *Lost* is excluded as recovery is unlikely to be cost-effective.
 >
 
-**4. Needs Attention is the segment most worth catching before it becomes At Risk.**
+`4. Needs Attention is the segment most worth catching before it becomes At Risk.`
 At £1.2M in revenue and £1.00K average per customer, *Needs Attention* sits just below *At Risk* in per-customer value but is, by definition, not yet churned. 
 
-**5. Hibernating and Lost are not good candidates for paid retention spend.**
+`5. Hibernating and Lost are not good candidates for paid retention spend.`
 At £0.52K and £0.33K average revenue per customer respectively, these segments do not clear a reasonable per-customer acquisition-equivalent cost. 
 
 # Recommendations
