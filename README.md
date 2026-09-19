@@ -110,7 +110,7 @@ These recommendations are directional, based on relative revenue-per-customer an
 
 A pivot table cross-tabulating `Last_Purchase_Date` (recency) against `churned` shows a clean threshold effect: every customer with `churned = 0` falls within 0–178 days since last purchase, while every customer with `churned = 1` falls at 179+ days. 
 
-![Correlation Matrix Screenshot]()
+![Correlation Matrix Screenshot](https://github.com/Bryony-A/Retention-Lifecycle-Analysis/blob/main/Screenshots/Correlation.png)
 
 The correlation between the two variables is 0.84. This pattern indicates that `churned` was likely operationalised as a recency-based proxy (no purchase within ~180 days) rather than derived from an independent behavioural or transactional signal. As a result, any segment-level analysis of churn is expected to closely mirror recency, since the two are effectively measuring the same underlying construct.
 
