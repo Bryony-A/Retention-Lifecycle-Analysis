@@ -106,7 +106,7 @@ These recommendations are directional, based on relative revenue-per-customer an
 
 ## Recency-Churn Relationship
 
-![Pivot Table Screenshot]()
+![Pivot Table Screenshot](https://github.com/Bryony-A/Retention-Lifecycle-Analysis/blob/main/Screenshots/Pivot%20Chart.png)
 
 A pivot table cross-tabulating `Last_Purchase_Date` (recency) against `churned` shows a clean threshold effect: every customer with `churned = 0` falls within 0–178 days since last purchase, while every customer with `churned = 1` falls at 179+ days. 
 
